@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="node_modules/example/example.d.ts">
+<error line="8" column="59" severity="error" message="Type &apos;&quot;day&quot; | &quot;era&quot; | &quot;hour&quot; | &quot;minute&quot; | &quot;month&quot; | &quot;second&quot; | &quot;timeZoneName&quot; | &quot;weekday&quot; | &quot;year&quot; | &quot;fractionalSecondDigits&quot;&apos; does not satisfy the constraint &apos;keyof DateTimeFormatOptions&apos;.
+  Type &apos;&quot;fractionalSecondDigits&quot;&apos; is not assignable to type &apos;keyof DateTimeFormatOptions&apos;." source="TS2344" />
+</file>
+<file name="example/example.d.ts">
+	<error line="8" column="59" severity="error" message="Type &apos;&quot;day&quot; | &quot;era&quot; | &quot;hour&quot; | &quot;minute&quot; | &quot;month&quot; | &quot;second&quot; | &quot;timeZoneName&quot; | &quot;weekday&quot; | &quot;year&quot; | &quot;fractionalSecondDigits&quot;&apos; does not satisfy the constraint &apos;keyof DateTimeFormatOptions&apos;.
+Type &apos;&quot;fractionalSecondDigits&quot;&apos; is not assignable to type &apos;keyof DateTimeFormatOptions&apos;." source="TS2344" />
+</file>
+</checkstyle>
