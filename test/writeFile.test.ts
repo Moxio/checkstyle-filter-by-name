@@ -1,5 +1,5 @@
-import { writeFile } from "../src/WriteFile";
-import fs from "fs";
+import { writeFile } from "../src/writeFile";
+import * as fs from "fs";
 
 describe("writeFile", () => {
 	it("writes correct output to file", () => {

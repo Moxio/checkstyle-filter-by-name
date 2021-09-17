@@ -1,4 +1,4 @@
-import { readFile } from "../src/ReadFile";
+import { readFile } from "../src/readFile";
 
 describe("readFile", () => {
 	it("can read file", () => {
