@@ -42,7 +42,7 @@ Passing along the -e or --exclude flag will exclude entries within the checkstyl
 A check is performed using standard javascript regexp: `RegExp(..passes argument..).test(..checkstyle entry name..)`.
 If this function returns true the file is skipped.
 
-####example
+#### example
 Given a file with these rules:
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
