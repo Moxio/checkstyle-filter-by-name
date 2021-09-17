@@ -84,7 +84,7 @@ This project is released under the MIT license.
 Treeware
 --------
 This package is [Treeware](https://treeware.earth/). If you use it in production,
-then we'd appreciate it if you [**buy the world a tree**](https://plant.treeware.earth/Moxio/commonmark-ext-fancy-lists)
+then we'd appreciate it if you [**buy the world a tree**](https://plant.treeware.earth/Moxio/checkstyle-filter-by-name)
 to thank us for our work. By contributing to the Treeware forest you'll be creating
 employment for local families and restoring wildlife habitats.
 
