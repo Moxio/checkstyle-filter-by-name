@@ -1,4 +1,4 @@
-![CI](https://github.com/Moxio/checkstyle-filter/workflows/CI/badge.svg)
+[![Continuous Integration](https://github.com/Moxio/checkstyle-filter-by-name/actions/workflows/ci.yml/badge.svg)](https://github.com/Moxio/checkstyle-filter-by-name/actions/workflows/ci.yml)
 [![NPM version](https://img.shields.io/npm/v/checkstyle-filter.svg)](https://www.npmjs.com/package/checkstyle-filter-by-name)
 
 checkstyle-filter-by-name
