@@ -1,5 +1,5 @@
 {
-	"name": "checkstyle-filter",
+	"name": "checkstyle-filter-by-name",
 	"version": "1.0.0",
 	"description": "Filtering a checkstyle file",
 	"keywords": [

@@ -1,7 +1,7 @@
 ![CI](https://github.com/Moxio/checkstyle-filter/workflows/CI/badge.svg)
-[![NPM version](https://img.shields.io/npm/v/checkstyle-filter.svg)](https://www.npmjs.com/package/checkstyle-filter)
+[![NPM version](https://img.shields.io/npm/v/checkstyle-filter.svg)](https://www.npmjs.com/package/checkstyle-filter-by-name)
 
-checkstyle-filter
+checkstyle-filter-by-name
 ===================
 Library for filtering rules from a checkstyle file
 
