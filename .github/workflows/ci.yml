@@ -28,6 +28,10 @@ jobs:
             - name: Run test suite
               run: npm run test
 
+            - name: Build
+              run: npm run build
+
+
     publish:
         needs: build
         runs-on: ubuntu-latest
@@ -45,6 +49,9 @@ jobs:
 
             - name: Install dependencies
               run: npm ci
+
+            - name: Build
+              run: npm run build
 
             - name: Set new version
               run: npm version --allow-same-version --no-git-tag-version ${{ github.event.release.tag_name }}
