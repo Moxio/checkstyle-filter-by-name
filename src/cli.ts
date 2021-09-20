@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
 import { Command } from "commander";
-import { readFile } from "./ReadFile";
-import { writeFile } from "./WriteFile";
+import { readFile } from "./readFile";
+import { writeFile } from "./writeFile";
 import { excludeByName } from "./excludeByName";
 
 const program = new Command();
