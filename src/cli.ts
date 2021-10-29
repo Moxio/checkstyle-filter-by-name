@@ -1,9 +1,8 @@
 #!/usr/bin/env node
 
 import { Command } from "commander";
-import { readFile } from "./readFile";
-import { writeFile } from "./writeFile";
 import { excludeByName } from "./excludeByName";
+import * as fs from "fs";
 
 const program = new Command();
 
@@ -15,14 +14,7 @@ program
 
 program.parse(process.argv);
 const options = program.opts();
-const input = readFile(options.input);
 
-if (input.elements?.length !== 1 || input.elements[0].name !== "checkstyle") {
-	throw new Error("could not find checkstyle element");
-}
-
-//if no elements we don't have to do anything.
-if (input.elements[0].elements) {
-	input.elements[0].elements = excludeByName(input.elements[0].elements, options.exclude);
-	writeFile(options.output ?? options.input, input);
-}
+const xmlIn = fs.readFileSync(options.input, "utf8");
+const xmlOut = excludeByName(options.input, new RegExp(options.exclude));
+fs.writeFileSync(options.output ?? options.input, xmlOut);
