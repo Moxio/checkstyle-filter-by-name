@@ -16,5 +16,5 @@ program.parse(process.argv);
 const options = program.opts();
 
 const xmlIn = fs.readFileSync(options.input, "utf8");
-const xmlOut = excludeByName(options.input, new RegExp(options.exclude));
+const xmlOut = excludeByName(xmlIn, new RegExp(options.exclude));
 fs.writeFileSync(options.output ?? options.input, xmlOut);
