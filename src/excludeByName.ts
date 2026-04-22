@@ -3,7 +3,7 @@ import { DOMParser, XMLSerializer } from "@xmldom/xmldom";
 export const excludeByName = (xmlIn: string, excludePattern: RegExp): string => {
 
 	const parser = new DOMParser();
-	const doc = parser.parseFromString(xmlIn);
+	const doc = parser.parseFromString(xmlIn, "text/xml");
 	if (doc.getElementsByTagName("checkstyle").length !== 1) {
 		throw new Error("could not find checkstyle element");
 	}
