@@ -1,8 +1,8 @@
 {
 	"compilerOptions": {
-		"target": "es5",
-		"module": "commonjs",
-		"moduleResolution": "node",
+		"target": "esnext",
+		"module": "nodenext",
+		"moduleResolution": "nodenext",
 		"rootDir": "src",
 		"declaration": true,
 		"strictNullChecks": true,
@@ -10,6 +10,9 @@
 		"outDir": "dist",
 		"lib": [
 			"es2018"
+		],
+		"types": [
+			"node"
 		]
 	},
 	"include": [
